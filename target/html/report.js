@@ -101,16 +101,12 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png", null);
-formatter.after({
-  "status": "passed"
-});
 formatter.background({
   "name": "User launches the application",
   "description": "",
   "keyword": "Background"
 });
-formatter.embedding("image/png", "embedded2.png", null);
+formatter.embedding("image/png", "embedded1.png", null);
 formatter.before({
   "status": "passed"
 });
@@ -187,16 +183,12 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded3.png", null);
-formatter.after({
-  "status": "passed"
-});
 formatter.background({
   "name": "User launches the application",
   "description": "",
   "keyword": "Background"
 });
-formatter.embedding("image/png", "embedded4.png", null);
+formatter.embedding("image/png", "embedded2.png", null);
 formatter.before({
   "status": "passed"
 });
@@ -273,16 +265,12 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded5.png", null);
-formatter.after({
-  "status": "passed"
-});
 formatter.background({
   "name": "User launches the application",
   "description": "",
   "keyword": "Background"
 });
-formatter.embedding("image/png", "embedded6.png", null);
+formatter.embedding("image/png", "embedded3.png", null);
 formatter.before({
   "status": "passed"
 });
@@ -359,16 +347,12 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded7.png", null);
-formatter.after({
-  "status": "passed"
-});
 formatter.background({
   "name": "User launches the application",
   "description": "",
   "keyword": "Background"
 });
-formatter.embedding("image/png", "embedded8.png", null);
+formatter.embedding("image/png", "embedded4.png", null);
 formatter.before({
   "status": "passed"
 });
@@ -433,10 +417,6 @@ formatter.match({
   "location": "com.Insurance.stepdefinition.Productmodule.user_selects_the_Health_claim_form()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.embedding("image/png", "embedded9.png", null);
-formatter.after({
   "status": "passed"
 });
 });

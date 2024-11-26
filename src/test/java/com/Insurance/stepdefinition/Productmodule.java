@@ -32,9 +32,10 @@ public class Productmodule extends Baseclass {
 	}
 
 	@Then("User validates the launched application   {string}")
-	public void user_validates_the_launched_application(String string) {
+	public void user_validates_the_launched_application(String url) {
 		String currentUrl = base.currentUrl();
-		if(currentUrl.startsWith(currentUrl)) {
+		System.out.println(currentUrl);
+		if(currentUrl.startsWith(url)) {
 			System.out.println("Application is Launched Successfully");	
 		}
 		else {

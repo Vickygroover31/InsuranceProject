@@ -19,14 +19,14 @@ public class Hooks extends Baseclass {
 		scenario.embed(source, "image/png");
 		
 	}
+//	
+//	@After
+//	public void browserClose(Scenario scenario) {
+////		final byte[] source = ((TakesScreenshot)base.driver).getScreenshotAs(OutputType.BYTES);
+////		scenario.embed(source, "image/png");
+//		
+		
+		
 	
-	@After
-	public void browserClose(Scenario scenario) {
-		final byte[] source = ((TakesScreenshot)base.driver).getScreenshotAs(OutputType.BYTES);
-		scenario.embed(source, "image/png");
-		
-		
-		
-	}
 
 }

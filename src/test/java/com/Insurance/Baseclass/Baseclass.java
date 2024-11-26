@@ -36,10 +36,7 @@ public class Baseclass implements IBaseclass {
 		
 	}
 
-	@Override
-	public void browserClose() {
-		driver.close();	
-	}
+
 
 	@Override
 	public void launchApplication(String Url) {
@@ -90,6 +87,9 @@ public class Baseclass implements IBaseclass {
 		}
 		
 	}
+
+
+
 	
 	
 

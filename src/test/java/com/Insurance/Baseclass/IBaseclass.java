@@ -6,7 +6,6 @@ public interface IBaseclass {
 	
 	
 	public void browserLaunch();
-	public void browserClose();
 	public void launchApplication(String Url);
 	public String currentUrl();
 	public void button(WebElement ele);
